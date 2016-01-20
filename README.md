@@ -15,7 +15,7 @@ first run on a clean rasbian:
 `sudo ./shPanel/update.sh`
 
 `sudo ./shPanel/spi.sh`
-*  <reboot>
+*  reboot
 
 `sudo ./shPanel/clean.sh`
 
