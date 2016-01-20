@@ -1,7 +1,9 @@
 #!/bin/bash
 
-DIRNAME=pwd
+DIRNAME=$(pwd)
+echo install into: $DIRNAME/..
+
 
 apt-get install vim
 
-git clone https://github.com/MartinTu/Panel DIRNAME/../ledPanel
+git clone https://github.com/MartinTu/Panel $DIRNAME/../ledPanel

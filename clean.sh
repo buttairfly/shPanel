@@ -1,3 +1,7 @@
 #!/bin/bash
 
-rm -R ../python_games
+DIRNAME=$(pwd)
+
+echo "dir= $DIRNAME"
+
+rm -R $DIRNAME/../python_games
