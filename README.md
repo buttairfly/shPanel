@@ -9,11 +9,14 @@ first run on a clean rasbian:
 
 
 `cd ~`
+
 `git clone https://github.com/buttairfly/shPanel shPanel`
 
 `sudo ./shPanel/update.sh`
+
 `sudo ./shPanel/spi.sh`
 *  <reboot>
 
 `sudo ./shPanel/clean.sh`
+
 `sudo ./shPanel/install.sh`
