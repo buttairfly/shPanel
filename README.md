@@ -12,6 +12,8 @@ first run on a clean rasbian:
 
 `git clone https://github.com/buttairfly/shPanel shPanel`
 
+`sudo ./shPanel/init.sh`
+
 `sudo ./shPanel/update.sh`
 
 `sudo ./shPanel/spi.sh`
